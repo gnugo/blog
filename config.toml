@@ -1,5 +1,5 @@
 baseurl      = "https://gnugo.github.io/"
-title        = "Hugo"
+title        = "HUGO"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -20,10 +20,10 @@ paginate     = 10
   enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "Blogue Pessoal de Hugo Costa"
   keywords = "homepage, blog"
   images = [""]
 
@@ -34,16 +34,16 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hugo"
+    title = "HUGO"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+    subtitle  = "Blogue e Documentação de Hugo Costa"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "cd home/"
       logoHomeLink = "/"
     # or
     #
@@ -53,5 +53,6 @@ paginate     = 10
   # And you can even create generic menu
   [[menu.main]]
     identifier = "blog"
-    name       = "Blog"
+    name       = "blogue"
     url        = "/posts"
+
